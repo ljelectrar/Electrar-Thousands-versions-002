@@ -1,0 +1,73 @@
+
+.header_bg_blue {
+  background-color: var(--color-azul-medio-claro);
+}
+
+.title_blue {
+  color: var(--color-azul);
+}
+
+.font_weight_400 {
+  font-weight: 400;
+}
+
+.font_weight_500 {
+  font-weight: 500;
+}
+
+.text_align_justify {
+  text-align: justify;
+}
+
+.color_gray_dark {
+  color: var(--color-gray-dark);
+}
+
+/* CONTACT */
+
+.contact_container {
+  padding: 9vh 6vh;
+  padding-top: 16vh;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--color-gray-dark);
+}
+
+
+.contact_container div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 24vh;
+}
+
+.contact_container div ul {
+  margin-top: 12%;
+}
+
+.contact_container div ul li {
+  font-size: 1.6em;
+  margin: 6% 0;
+}
+
+/* TERMS AND CONDITIONS */
+
+.terms_and_conditions_container {
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left:12%;
+  padding-top: 9%;
+  padding-bottom: 9%;
+}
+
+.terms_and_conditions_container h2, .terms_and_conditions_container h3 {
+  margin: .5% 0;
+  margin-top: 3%;
+}
+
+.terms_and_conditions_container p {
+  margin: .7% 0;
+  max-width: 90%;
+  line-height: 1.35em;
+}
